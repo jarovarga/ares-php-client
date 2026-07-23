@@ -1,0 +1,18 @@
+{
+    "pocetCelkem": 2,
+    "ekonomickeSubjekty": [
+        {
+            "icoId": "27074358",
+            "ico": "27074358",
+            "obchodniJmeno": "Asseco Central Europe, a.s.",
+            "pravniForma": "121",
+            "datumVzniku": "2003-08-06",
+            "datumAktualizace": "2026-03-08"
+        },
+        {
+            "icoId": "ARES_12345678",
+            "obchodniJmeno": "Economic subject without a registration number",
+            "datumAktualizace": "2026-01-15"
+        }
+    ]
+}
