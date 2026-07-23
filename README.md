@@ -53,18 +53,11 @@ proxy configuration, logging, and retry policy.
 
 ## Installation
 
-Until the first tagged release is published through Packagist, install the
-current development branch directly from GitHub:
+Install the current development branch directly from GitHub:
 
 ```bash
 composer config repositories.ares-php-client vcs https://github.com/jarovarga/ares-php-client
 composer require jarovarga/ares-php-client:dev-main guzzlehttp/guzzle
-```
-
-After a tagged Packagist release is available, installation will reduce to:
-
-```bash
-composer require jarovarga/ares-php-client guzzlehttp/guzzle
 ```
 
 These examples use Guzzle as both the PSR-18 client and the provider of PSR-17 factories.
@@ -75,8 +68,7 @@ Guzzle is not required by the library itself. You may use any combination that p
 - `Psr\Http\Message\StreamFactoryInterface`
 
 There is deliberately no HTTP-client auto-discovery. Dependencies are passed
-to `ClientFactory` explicitly, which keeps application wiring predictable and
-easy to replace in tests.
+to `ClientFactory` explicitly, which keeps application wiring predictable and easy to replace in tests.
 
 ## Quick start
 
