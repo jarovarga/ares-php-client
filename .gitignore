@@ -1,0 +1,36 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+._*
+.directory
+Icon?
+Thumbs.db
+ehthumbs.db
+
+# Tool specific files #
+#######################
+# Vim
+*~
+*.swo
+*.swp
+# Sublime Text & TextMate
+*.sublime-*
+*.stTheme.cache
+*.tmlanguage.cache
+*.tmPreferences.cache
+# Eclipse
+.settings/
+# JetBrains aka PhpStorm
+.idea/
+# NetBeans
+nbproject/
+# Visual Studio Code
+.vscode/
+# PHPunit
+.phpunit.cache/
+.phpunit.result.cache/
+# Composer
+composer.lock
