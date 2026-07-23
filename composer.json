@@ -1,6 +1,6 @@
 {
     "name": "jarovarga/ares-php-client",
-    "description": "Framework-agnostic PHP client for the Czech ARES API.",
+    "description": "A framework-agnostic, PSR-compliant PHP client for the Czech ARES registry.",
     "type": "library",
     "license": "ISC",
     "homepage": "https://github.com/jarovarga/ares-php-client",
